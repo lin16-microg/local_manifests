@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Forked Jelly Browser
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <project path="packages/apps/Jelly" name="lin16-microG/android_packages_apps_Jelly" />
+  -->
+
+  <!-- microG Build, prebuilt apks -->
+  <project path="prebuilts/prebuiltapks" 
+           name="lineageos4microg/android_prebuilts_prebuiltapks" 
+           clone-depth="1" revision="master" />
+
+  <!-- Privacy friendly netmonitor
+  <project path="external/secuso/privacy-friendly-netmonitor"
+           name="MSe1969/privacy-friendly-netmonitor-prebuilt"
+           clone-depth="1" revision="master" />
+  -->
+
+  <!-- Bromite SystemWebView prebuilt-->
+  <project path="external/bromite-webview" name="MSe1969/android_external_bromite-webview" revision="master" />
+
+  <!-- microG REmote DRoid Guard prebuilt (temporary -->
+  <project path="prebuilts/RemoteDroidGuard" name="MSe1969/RemoteDroidGuard-prebuilt" revision="master" />
+
+  <!-- YalpStore prebuilt-->
+  <project path="prebuilts/yalpstore" name="MSe1969/YalpStore-prebuilt" revision="master" />
+
+  <!-- Patches & root-scripts Directory -->
+  <project path="z_patches" name="lin16-microG/z_patches" />
+  <project path="z_patches/root-scripts" name="lin16-microG/root-scripts" />
+
+  <!-- Replaced/enhanced Repositories -->
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <project path="frameworks/base" name="lin16-microG/android_frameworks_base" />
+  <remove-project name="LineageOS/android_frameworks_native" />
+  <project path="frameworks/native" name="lin16-microG/android_frameworks_native" />
+  <!-- remove-project name="LineageOS/android_packages_apps_Camera2" />
+  <project path="packages/apps/Camera2" name="lin15-microG/android_packages_apps_Camera2" revision="lin-15.1-microG" />
+  <remove-project name="LineageOS/android_packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="lin15-microG/android_packages_apps_Dialer" revision="lin-15.1-microG" />
+  <remove-project name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Eleven" name="lin15-microG/android_packages_apps_Eleven" revision="lin-15.1-microG" />
+  <remove-project name="LineageOS/android_packages_apps_LockClock" />
+  <project path="packages/apps/LockClock" name="lin15-microG/android_packages_apps_LockClock" revision="lin-15.1-microG" /-->
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" />
+  <!-- remove-project name="LineageOS/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="lin15-microG/android_packages_apps_SetupWizard" revision="lin-15.1-microG" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="lin15-microG/android_packages_apps_Trebuchet" revision="lin-15.1-microG" />
+  <remove-project name="LineageOS/android_system_bt" />
+  <project path="system/bt" name="lin15-microG/android_system_bt" revision="lin-15.1-microG" />
+  <remove-project name="LineageOS/android_system_core" />
+  <project path="system/core" name="lin15-microG/android_system_core" revision="lin-15.1-microG" />
+  <remove-project name="LineageOS/android_system_sepolicy" />
+  <project path="system/sepolicy" name="lin15-microG/android_system_sepolicy" revision="lin-15.1-microG" /-->
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="lin16-microG/android_vendor_lineage" />
+
+</manifest>
