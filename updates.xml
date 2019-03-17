@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Forked Jelly Browser
+  <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/Jelly" name="lin16-microG/android_packages_apps_Jelly" />
-  -->
 
   <!-- microG Build, prebuilt apks -->
   <project path="prebuilts/prebuiltapks" 
@@ -20,7 +19,7 @@
   <!-- Bromite SystemWebView prebuilt-->
   <project path="external/bromite-webview" name="MSe1969/android_external_bromite-webview" revision="master" />
 
-  <!-- microG REmote DRoid Guard prebuilt (temporary -->
+  <!-- microG Remote Droid Guard prebuilt (temporary) -->
   <project path="prebuilts/RemoteDroidGuard" name="MSe1969/RemoteDroidGuard-prebuilt" revision="master" />
 
   <!-- YalpStore prebuilt-->
@@ -36,25 +35,23 @@
   <remove-project name="LineageOS/android_frameworks_native" />
   <project path="frameworks/native" name="lin16-microG/android_frameworks_native" />
   <!-- remove-project name="LineageOS/android_packages_apps_Camera2" />
-  <project path="packages/apps/Camera2" name="lin15-microG/android_packages_apps_Camera2" revision="lin-15.1-microG" />
+  <project path="packages/apps/Camera2" name="lin15-microG/android_packages_apps_Camera2" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
-  <project path="packages/apps/Dialer" name="lin15-microG/android_packages_apps_Dialer" revision="lin-15.1-microG" />
+  <project path="packages/apps/Dialer" name="lin15-microG/android_packages_apps_Dialer" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
-  <project path="packages/apps/Eleven" name="lin15-microG/android_packages_apps_Eleven" revision="lin-15.1-microG" />
+  <project path="packages/apps/Eleven" name="lin15-microG/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_LockClock" />
-  <project path="packages/apps/LockClock" name="lin15-microG/android_packages_apps_LockClock" revision="lin-15.1-microG" /-->
+  <project path="packages/apps/LockClock" name="lin15-microG/android_packages_apps_LockClock" /-->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" />
   <!-- remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/SetupWizard" name="lin15-microG/android_packages_apps_SetupWizard" revision="lin-15.1-microG" />
+  <project path="packages/apps/SetupWizard" name="lin15-microG/android_packages_apps_SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/Trebuchet" name="lin15-microG/android_packages_apps_Trebuchet" revision="lin-15.1-microG" />
-  <remove-project name="LineageOS/android_system_bt" />
-  <project path="system/bt" name="lin15-microG/android_system_bt" revision="lin-15.1-microG" />
+  <project path="packages/apps/Trebuchet" name="lin15-microG/android_packages_apps_Trebuchet" />
   <remove-project name="LineageOS/android_system_core" />
-  <project path="system/core" name="lin15-microG/android_system_core" revision="lin-15.1-microG" />
+  <project path="system/core" name="lin15-microG/android_system_core" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="lin15-microG/android_system_sepolicy" revision="lin-15.1-microG" /-->
+  <project path="system/sepolicy" name="lin15-microG/android_system_sepolicy" /-->
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="lin16-microG/android_vendor_lineage" />
 
