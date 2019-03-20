@@ -35,23 +35,23 @@
   <remove-project name="LineageOS/android_frameworks_native" />
   <project path="frameworks/native" name="lin16-microG/android_frameworks_native" />
   <!-- remove-project name="LineageOS/android_packages_apps_Camera2" />
-  <project path="packages/apps/Camera2" name="lin15-microG/android_packages_apps_Camera2" />
+  <project path="packages/apps/Camera2" name="lin16-microG/android_packages_apps_Camera2" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
-  <project path="packages/apps/Dialer" name="lin15-microG/android_packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="lin16-microG/android_packages_apps_Dialer" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
-  <project path="packages/apps/Eleven" name="lin15-microG/android_packages_apps_Eleven" />
+  <project path="packages/apps/Eleven" name="lin16-microG/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_LockClock" />
-  <project path="packages/apps/LockClock" name="lin15-microG/android_packages_apps_LockClock" /-->
+  <project path="packages/apps/LockClock" name="lin16-microG/android_packages_apps_LockClock" /-->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" />
   <!-- remove-project name="LineageOS/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/SetupWizard" name="lin15-microG/android_packages_apps_SetupWizard" />
+  <project path="packages/apps/SetupWizard" name="lin16-microG/android_packages_apps_SetupWizard" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/Trebuchet" name="lin15-microG/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="lin16-microG/android_packages_apps_Trebuchet" /-->
   <remove-project name="LineageOS/android_system_core" />
-  <project path="system/core" name="lin15-microG/android_system_core" />
-  <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="lin15-microG/android_system_sepolicy" /-->
+  <project path="system/core" name="lin16-microG/android_system_core" />
+  <!--remove-project name="LineageOS/android_system_sepolicy" />
+  <project path="system/sepolicy" name="lin16-microG/android_system_sepolicy" /-->
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="lin16-microG/android_vendor_lineage" />
 
