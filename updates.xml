@@ -18,11 +18,8 @@
   <!-- Bromite SystemWebView prebuilt-->
   <project path="external/bromite-webview" name="MSe1969/android_external_bromite-webview" revision="master" />
 
-  <!-- microG Remote Droid Guard prebuilt (temporary) -->
-  <project path="prebuilts/RemoteDroidGuard" name="MSe1969/RemoteDroidGuard-prebuilt" revision="master" />
-
   <!-- YalpStore prebuilt-->
-  <project path="prebuilts/yalpstore" name="MSe1969/YalpStore-prebuilt" revision="master" />
+  <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="master" />
 
   <!-- Patches & root-scripts Directory -->
   <project path="z_patches" name="lin16-microG/z_patches" revision="lin-16.0-microG" />
