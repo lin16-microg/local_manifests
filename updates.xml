@@ -34,19 +34,16 @@
   <project path="packages/apps/Camera2" name="lin16-microG/android_packages_apps_Camera2" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
   <project path="packages/apps/Dialer" name="lin16-microG/android_packages_apps_Dialer" revision="lin-16.0-microG" />
-  <!--remove-project name="LineageOS/android_packages_apps_Eleven" />
-  <project path="packages/apps/Eleven" name="lin16-microG/android_packages_apps_Eleven" revision="lin-16.0-microG" />
-  <remove-project name="LineageOS/android_packages_apps_LockClock" />
-  <project path="packages/apps/LockClock" name="lin16-microG/android_packages_apps_LockClock" revision="lin-16.0-microG" /-->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" revision="lin-16.0-microG" />
-  <!--remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/Trebuchet" name="lin16-microG/android_packages_apps_Trebuchet" revision="lin-16.0-microG" /-->
   <remove-project name="LineageOS/android_system_core" />
   <project path="system/core" name="lin16-microG/android_system_core" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="lin16-microG/android_system_sepolicy" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="lin16-microG/android_vendor_lineage" revision="lin-16.0-microG" />
+
+  <!-- OmniROM -->
+  <project path="packages/apps/Phonograph" name="omnirom/android_packages_apps_Phonograph" revision="android-9.0" />
 
 </manifest>
