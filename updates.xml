@@ -32,6 +32,8 @@
   <project path="frameworks/base" name="lin16-microG/android_frameworks_base" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <project path="frameworks/native" name="lin16-microG/android_frameworks_native" revision="lin-16.0-microG" />
+  <remove-project name="LineageOS/android_hardware_sony_timekeep" />
+  <project path="hardware/sony/timekeep" name="lin16-microG/android_hardware_sony_timekeep" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
   <project path="packages/apps/Camera2" name="lin16-microG/android_packages_apps_Camera2" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
