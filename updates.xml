@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <!-- Static OTA updater resource -->
+  <project path="OTA" name="lin16-microG/OTA" revision="changelog" />
+
   <!-- Common: DeviceSettings -->
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
 
