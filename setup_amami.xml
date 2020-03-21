@@ -2,7 +2,6 @@
 <manifest>
   <project name="AICP/device_sony_common" path="device/sony/common-caf" revision="p9.0-caf" />
   <project name="AICP/proprietary_vendor_sony" path="vendor/sony" revision="p9.0" />
-  <project name="CarbonRom/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="cr-7.0" />
   <project name="lin16-microG/android_hardware_sony_timekeep" path="hardware/sony/timekeep" />
   <project name="lin16-microG/android_device_sony_amami" path="device/sony/amami" />
   <project name="lin16-microG/android_device_sony_msm8974-common" path="device/sony/msm8974-common" />
