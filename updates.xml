@@ -33,10 +33,28 @@
   <project path="z_patches/root-scripts" name="lin16-microG/root-scripts" />
 
   <!-- Replaced/enhanced Repositories -->
+  <remove-project name="LineageOS/android_build" />
+  <project path="build/make" name="lin16-microG/android_build" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <remove-project name="LineageOS/android_external_selinux" />
+  <project path="external/selinux" name="lin16-microG/android_external_selinux" />
+  <remove-project name="LineageOS/android_frameworks_av" />
+  <project path="frameworks/av" name="lin16-microG/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project path="frameworks/base" name="lin16-microG/android_frameworks_base" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <project path="frameworks/native" name="lin16-microG/android_frameworks_native" />
+  <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
+  <project path="frameworks/opt/net/wifi" name="lin16-microG/android_frameworks_opt_net_wifi" />
+  <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="lin16-microG/android_frameworks_opt_telephony" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
   <project path="packages/apps/Camera2" name="lin16-microG/android_packages_apps_Camera2" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
@@ -47,11 +65,27 @@
   <project path="packages/apps/LineageParts" name="lin16-microG/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_packages_services_Telephony" />
+  <project path="packages/services/Telephony" name="lin16-microG/android_packages_services_Telephony" />
+  <remove-project name="LineageOS/android_system_bt" />
+  <project path="system/bt" name="lin16-microG/android_system_bt" />
   <remove-project name="LineageOS/android_system_core" />
   <project path="system/core" name="lin16-microG/android_system_core" />
+  <remove-project name="LineageOS/android_system_netd" />
+  <project path="system/netd" name="lin16-microG/android_system_netd" />
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="lin16-microG/android_system_sepolicy" />
+  <remove-project name="LineageOS/android_system_vold" />
+  <project path="system/vold" name="lin16-microG/android_system_vold" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="lin16-microG/android_vendor_lineage" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="lin16-microG/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />
+
+  <!-- Additional Repositories needed for Treble -->
+  <project name="lin16-microG/device_phh_treble" path="device/phh/treble" remote="github" revision="android-9.0" />
+  <project name="phhusson/vendor_vndk" path="vendor/vndk" remote="github" revision="master" />
+  <project name="phhusson/vendor_hardware_overlay" path="vendor/hardware_overlay" remote="github" revision="pie" />
+  <project name="phhusson/vendor_interfaces" path="vendor/interfaces" remote="github" revision="pie" />
 
 </manifest>
