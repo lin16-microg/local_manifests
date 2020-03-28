@@ -83,7 +83,7 @@
   <project path="vendor/qcom/opensource/cryptfs_hw" name="lin16-microG/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" revision="lin-16.0-treble" />
 
   <!-- Additional Repositories needed for Treble -->
-  <project name="lin16-microG/device_phh_treble" path="device/phh/treble" remote="github" revision="android-9.0" />
+  <project name="lin16-microG/device_phh_treble" path="device/phh/treble" remote="github" revision="lin-16.0-eva-p9" />
   <project name="phhusson/vendor_vndk" path="vendor/vndk" remote="github" revision="master" />
   <project name="phhusson/vendor_hardware_overlay" path="vendor/hardware_overlay" remote="github" revision="pie" />
   <project name="phhusson/vendor_interfaces" path="vendor/interfaces" remote="github" revision="pie" />
