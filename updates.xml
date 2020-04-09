@@ -4,10 +4,6 @@
   <!-- Static OTA updater resource -->
   <project path="OTA" name="lin16-microG/OTA" revision="changelog" />
 
-  <!-- Common: DeviceSettings & boringssl-compat-->
-  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
-  <project name="CarbonRom/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="cr-7.0" />
-
   <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/Jelly" name="lin16-microG/android_packages_apps_Jelly" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Common Device repositories, used by several devices -->
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+  <project name="CarbonRom/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" revision="cr-7.0" />
+  <project name="lin16-microG/android_hardware_sony_timekeep" path="hardware/sony/timekeep" />
+
+</manifest>
