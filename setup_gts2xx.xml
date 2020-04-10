@@ -12,7 +12,7 @@
 
   <project name="lin16-microG/android_device_samsung_gts210vewifi" path="device/samsung/gts210vewifi" remote="github" />
   <project name="syphyr/android_device_samsung_msm8976-common" path="device/samsung/msm8976-common" remote="github" />
-  <project name="syphyr/android_kernel_samsung_msm8976" path="kernel/samsung/msm8976" remote="github" />
+  <project name="syphyr/android_kernel_samsung_msm8976" path="kernel/samsung/msm8976" remote="github" revision="lineage-16.0-official" />
 
   <project name="lin16-microG/proprietary_vendor_samsung_tablets" path="vendor/samsung" remote="github" />
 </manifest>
