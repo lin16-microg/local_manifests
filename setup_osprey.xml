@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="chil360/android_device_motorola_osprey" path="device/motorola/osprey" remote="github" revision="lineage-16.0" />
-  <project name="chil360/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" revision="lineage-16.0" />
+  <project name="lin16-microG/android_device_motorola_osprey" path="device/motorola/osprey" remote="github" />
+  <project name="lin16-microG/android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="github" />
   <project name="lin16-microG/android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="github" revision="mse_v1" />
-  <project name="chil360/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="9.0" />
+  <project name="lin16-microG/proprietary_vendor_motorola_msm8916" path="vendor/motorola" remote="github" />
 
-  <project name="LineageOS/android_system_qcom" path="system/qcom" groups="qcom" remote="github" revision="lineage-16.0" />
+  <project name="LineageOS/android_system_qcom" path="system/qcom" groups="qcom" remote="github" />
 
   <!-- ARM Developer GCC 8.3 kernel toolchain -->
   <project name="chil360/prebuilts_gcc_linux-x86_arm_arm-eabi-8.3" path="prebuilts/gcc/linux-x86/arm/arm-eabi-8.3" remote="github" revision="master" />
