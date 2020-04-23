@@ -61,6 +61,8 @@
   <project path="packages/apps/LineageParts" name="lin16-microG/android_packages_apps_LineageParts" revision="lin-16.0-treble" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" revision="lin-16.0-treble" />
+  <remove-project name="LineageOS/android_packages_services_Telecomm" />
+  <project path="packages/services/Telecomm" name="lin16-microG/android_packages_services_Telecomm" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
   <project path="packages/services/Telephony" name="lin16-microG/android_packages_services_Telephony" revision="lin-16.0-treble" />
   <remove-project name="LineageOS/android_system_bt" />
