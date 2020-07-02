@@ -39,8 +39,6 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
-  <project path="device/lineage/sepolicy" name="lin16-microG/android_device_lineage_sepolicy" />
   <remove-project name="LineageOS/android_external_selinux" />
   <project path="external/selinux" name="lin16-microG/android_external_selinux" revision="lin-16.0-treble" />
   <remove-project name="LineageOS/android_frameworks_av" />
@@ -53,8 +51,6 @@
   <project path="frameworks/opt/net/wifi" name="lin16-microG/android_frameworks_opt_net_wifi" revision="lin-16.0-treble" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/telephony" name="lin16-microG/android_frameworks_opt_telephony" revision="lin-16.0-treble" />
-  <remove-project name="LineageOS/android_hardware_lineage_interfaces" />
-  <project path="hardware/lineage/interfaces" name="lin16-microG/android_hardware_lineage_interfaces" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
   <project path="packages/apps/Camera2" name="lin16-microG/android_packages_apps_Camera2" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
