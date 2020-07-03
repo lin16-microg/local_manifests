@@ -9,9 +9,7 @@
   <project path="packages/apps/Jelly" name="lin16-microG/android_packages_apps_Jelly" />
 
   <!-- microG Build, prebuilt apks -->
-  <project path="prebuilts/prebuiltapks" 
-           name="lineageos4microg/android_prebuilts_prebuiltapks" 
-           clone-depth="1" revision="master" />
+  <project path="prebuilts/prebuiltapks" name="MSe1969/android_prebuilts_prebuiltapks" revision="master" />
 
   <!-- Privacy friendly netmonitor -->
   <project path="external/secuso/privacy-friendly-netmonitor"
