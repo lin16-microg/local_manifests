@@ -49,6 +49,8 @@
   <project path="frameworks/opt/net/wifi" name="lin16-microG/android_frameworks_opt_net_wifi" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/telephony" name="lin16-microG/android_frameworks_opt_telephony" />
+  <remove-project name="LineageOS/android_lineage-sdk" />
+  <project path="lineage-sdk" name="lin16-microG/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
   <project path="packages/apps/Camera2" name="lin16-microG/android_packages_apps_Camera2" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
