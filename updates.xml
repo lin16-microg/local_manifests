@@ -27,6 +27,8 @@
   <project path="z_patches/root-scripts" name="lin16-microG/root-scripts" />
 
   <!-- Replaced/enhanced Repositories -->
+  <remove-project name="LineageOS/android_bionic" />
+  <project path="bionic" name="lin16-microG/android_bionic" groups="pdk" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_build" revision="lin-16.0-microG" />
   <project path="build/make" name="lin16-microG/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -46,10 +48,10 @@
   <remove-project name="LineageOS/android_frameworks_native" />
   <project path="frameworks/native" name="lin16-microG/android_frameworks_native" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
-  <project path="frameworks/opt/net/wifi" name="lin16-microG/android_frameworks_opt_net_wifi" />
+  <project path="frameworks/opt/net/wifi" name="lin16-microG/android_frameworks_opt_net_wifi" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/telephony" name="lin16-microG/android_frameworks_opt_telephony" />
-  <remove-project name="LineageOS/android_lineage-sdk" />
+  <remove-project name="LineageOS/android_lineage-sdk" revision="lin-16.0-microG" />
   <project path="lineage-sdk" name="lin16-microG/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
   <project path="packages/apps/Dialer" name="lin16-microG/android_packages_apps_Dialer" revision="lin-16.0-microG" />
