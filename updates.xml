@@ -27,8 +27,10 @@
   <project path="z_patches/root-scripts" name="lin16-microG/root-scripts" />
 
   <!-- Replaced/enhanced Repositories -->
-  <remove-project name="LineageOS/android_build" revision="lin-16.0-treble" />
-  <project path="build/make" name="lin16-microG/android_build" groups="pdk" >
+  <remove-project name="LineageOS/android_bionic" />
+  <project path="bionic" name="lin16-microG/android_bionic" groups="pdk" revision="lin-16.0-treble" />
+  <remove-project name="LineageOS/android_build" />
+  <project path="build/make" name="lin16-microG/android_build" groups="pdk" revision="lin-16.0-treble" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
