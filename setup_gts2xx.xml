@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Common manifest file for the used Samsung GTS2** tablets, Exynos and QCom -->
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
   <project name="universal5433/android_device_samsung_gts2-common" path="device/samsung/gts2-common" remote="github" revision="lineage-16.0" />
   <project name="universal5433/android_device_samsung_gts210ltexx" path="device/samsung/gts210ltexx" remote="github" revision="lineage-16.0" />
-  <project name="universal5433/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-16.0" />
-  <project name="universal5433/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-16.0" />
-  <project name="universal5433/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-16.0" />
-  <project name="universal5433/android_hardware_samsung_slsi-cm_exynos5433" path="hardware/samsung_slsi-cm/exynos5433" remote="github" revision="lineage-16.0" />
-  <project name="universal5433/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="lineage-16.0" />
   <project name="universal5433/android_kernel_samsung_universal5433" path="kernel/samsung/universal5433" remote="github" revision="lineage-16.0" />
 
   <project name="lin16-microG/android_device_samsung_gts210vewifi" path="device/samsung/gts210vewifi" remote="github" />
