@@ -72,6 +72,8 @@
   <project path="system/bt" name="lin16-microG/android_system_bt" />
   <remove-project name="LineageOS/android_system_core" />
   <project path="system/core" name="lin16-microG/android_system_core" revision="lin-16.0-microG" />
+  <remove-project name="LineageOS/android_system_media" />
+  <project path="system/media" name="lin16-microG/android_system_media" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_system_netd" />
   <project path="system/netd" name="lin16-microG/android_system_netd" />
   <remove-project name="LineageOS/android_system_sepolicy" />
