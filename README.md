@@ -4,12 +4,12 @@ The [LineageOS build instructions (example: gts210vewifi device)](https://wiki.l
 
 ## Purpose of this organization
 The main purpose of this organization is to build the "hardened microG" variants for below listed devices:
-- HUAWEI P9 EVA (treble build)
-- Motorola Moto G3 (osprey) - not updated any longer, see https://github.com/lin17-microG
-- OnePlus 3T (oneplus3) - not updated any longer, see https://github.com/lin17-microG
+- HUAWEI P9 EVA (treble build) - [Huawei P9 XDA Support thread](https://forum.xda-developers.com/t/rom-treble-microg-lineageos-16-0-for-huawei-p9.4078383/)
+- Motorola Moto G3 (osprey) - [Moto G3 XDA Support thread](https://forum.xda-developers.com/t/rom-unofficial-9-0-0-microg-signed-lineageos-16-0-for-osprey.4095453/)
+- OnePlus 3T (oneplus3) - not updated any longer, see https://github.com/lin18-microG
 - Samsung Galaxy Tab S2 LTE exynos (gts210ltexx)
 - Samsung Galaxy Tab S2 WiFi 2016 (gts210vewifi)
-- Sony Xperia Z1 compact (amami) - not updated any longer, see https://github.com/lin17-microG
+- Sony Xperia Z1 compact (amami) - not updated any longer, see https://github.com/lin18-microG
 
 ## Setup of build environment
 ### Step 1 - Initialize the build tree
