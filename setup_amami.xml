@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!--
   <project name="AICP/device_sony_common" path="device/sony/common-caf" revision="p9.0-caf" />
   <project name="lin16-microG/proprietary_vendor_sony" path="vendor/sony" />
   <project name="lin16-microG/android_device_sony_amami" path="device/sony/amami" />
@@ -8,4 +9,5 @@
   <project name="lin16-microG/android_kernel_sony_msm8974" path="kernel/sony/msm8974" />
   <project name="omnirom/android_hardware_sony_thermanager" path="hardware/sony/thermanager" revision="android-8.1" />
   <project name="omnirom/android_hardware_sony_macaddrsetup" path="hardware/sony/macaddrsetup" revision="android-8.1" />
+  -->
 </manifest> 
