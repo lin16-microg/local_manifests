@@ -1,0 +1,19 @@
+<?xmnl version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Replace Lineage repos with own forks, due to not merged CVE from LOS gerrit -->
+    <remove-project name="LineageOS/android_external_aac" />
+    <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
+    <remove-project name="LineageOS/android_packages_apps_Contacts" />
+    <remove-project name="LineageOS/android_packages_apps_KeyChain" />
+    <remove-project name="LineageOS/android_packages_apps_Nfc" />
+    <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
+    <remove-project name="LineageOS/android_system_nfc" />
+
+    <project path="external/aac" name="lin16-microG/android_external_aac" />
+    <project path="packages/apps/Bluetooth" name="lin16-microG/android_packages_apps_Bluetooth" />
+    <project path="packages/apps/Contacts" name="lin16-microG/android_packages_apps_Contacts" />
+    <project path="packages/apps/KeyChain" name="lin16-microG/android_packages_apps_KeyChain" />
+    <project path="packages/apps/Nfc" name="lin16-microG/android_packages_apps_Nfc" />
+    <project path="packages/providers/ContactsProvider" name="lin16-microG/android_packages_providers_ContactsProvider" />
+    <project path="system/nfc" name="lin16-microG/android_system_nfc" />
+</manifest>
