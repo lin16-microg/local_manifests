@@ -9,9 +9,11 @@
     <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
     <remove-project name="LineageOS/android_system_nfc" />
 
+    <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/expat" />
 
     <project path="external/aac" name="lin16-microG/android_external_aac" />
+    <project path="external/dtc" name="lin16-microG/android_external_dtc" />
     <project path="external/expat" name="lin16-microG/android_external_expat" />
     <project path="packages/apps/Bluetooth" name="lin16-microG/android_packages_apps_Bluetooth" />
     <project path="packages/apps/Contacts" name="lin16-microG/android_packages_apps_Contacts" />
