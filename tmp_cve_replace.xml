@@ -2,6 +2,8 @@
 <manifest>
     <!-- Replace Lineage repos with own forks, due to not merged CVE from LOS gerrit -->
     <remove-project name="LineageOS/android_external_aac" />
+    <remove-project name="LineageOS/android_external_icu" />
+    <remove-project name="LineageOS/android_libcore" />
     <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
     <remove-project name="LineageOS/android_packages_apps_Contacts" />
     <remove-project name="LineageOS/android_packages_apps_EmergencyInfo" />
@@ -9,14 +11,17 @@
     <remove-project name="LineageOS/android_packages_apps_Nfc" />
     <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
     <remove-project name="LineageOS/android_system_nfc" />
+    <remove-project name="LineageOS/android_system_timezone" />
     <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
     <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
 
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/expat" />
 
+    <project path="libcore" name="lin16-microG/android_libcore" />
     <project path="external/aac" name="lin16-microG/android_external_aac" />
     <project path="external/dtc" name="lin16-microG/android_external_dtc" />
+    <project path="external/icu" name="lin16-microG/android_external_icu" />
     <project path="external/expat" name="lin16-microG/android_external_expat" />
     <project path="packages/apps/Bluetooth" name="lin16-microG/android_packages_apps_Bluetooth" />
     <project path="packages/apps/Contacts" name="lin16-microG/android_packages_apps_Contacts" />
@@ -25,6 +30,7 @@
     <project path="packages/apps/Nfc" name="lin16-microG/android_packages_apps_Nfc" />
     <project path="packages/providers/ContactsProvider" name="lin16-microG/android_packages_providers_ContactsProvider" />
     <project path="system/nfc" name="lin16-microG/android_system_nfc" />
+    <project path="system/timezone" name="lin16-microG/android_system_timezone" />
     <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="lin16-microG/android_vendor_nxp_opensource_external_libnfc-nci" />
     <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="lin16-microG/android_vendor_nxp_opensource_packages_apps_Nfc" />
 </manifest>
