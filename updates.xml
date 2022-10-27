@@ -41,45 +41,45 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="LineageOS/android_external_selinux" />
-  <project path="external/selinux" name="lin16-microG/android_external_selinux" />
+  <project path="external/selinux" name="lin16-microG/android_external_selinux" groups="pdk" />
   <remove-project name="LineageOS/android_frameworks_av" />
-  <project path="frameworks/av" name="lin16-microG/android_frameworks_av" />
+  <project path="frameworks/av" name="lin16-microG/android_frameworks_av" groups="pdk" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="lin16-microG/android_frameworks_base" revision="lin-16.0-microG" />
+  <project path="frameworks/base" name="lin16-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <project path="frameworks/native" name="lin16-microG/android_frameworks_native" revision="lin-16.0-microG" />
+  <project path="frameworks/native" name="lin16-microG/android_frameworks_native" groups="pdk" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
-  <project path="frameworks/opt/net/wifi" name="lin16-microG/android_frameworks_opt_net_wifi" revision="lin-16.0-microG" />
+  <project path="frameworks/opt/net/wifi" name="lin16-microG/android_frameworks_opt_net_wifi" groups="pdk" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
-  <project path="frameworks/opt/telephony" name="lin16-microG/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="lin16-microG/android_frameworks_opt_telephony" groups="pdk" />
   <remove-project name="LineageOS/android_lineage-sdk" revision="lin-16.0-microG" />
   <project path="lineage-sdk" name="lin16-microG/android_lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
-  <project path="packages/apps/Dialer" name="lin16-microG/android_packages_apps_Dialer" revision="lin-16.0-microG" />
+  <project path="packages/apps/Dialer" name="lin16-microG/android_packages_apps_Dialer" groups="pdk-fs" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
   <project path="packages/apps/Eleven" name="lin16-microG/android_packages_apps_Eleven" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/LineageParts" name="lin16-microG/android_packages_apps_LineageParts" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" revision="lin-16.0-microG" />
+  <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" groups="pdk-fs" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Trebuchet" name="lin16-microG/android_packages_apps_Trebuchet" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
-  <project path="packages/services/Telecomm" name="lin16-microG/android_packages_services_Telecomm" revision="lin-16.0-microG" />
+  <project path="packages/services/Telecomm" name="lin16-microG/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
-  <project path="packages/services/Telephony" name="lin16-microG/android_packages_services_Telephony" />
+  <project path="packages/services/Telephony" name="lin16-microG/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="LineageOS/android_system_bt" />
-  <project path="system/bt" name="lin16-microG/android_system_bt" />
+  <project path="system/bt" name="lin16-microG/android_system_bt" groups="pdk" />
   <remove-project name="LineageOS/android_system_core" />
-  <project path="system/core" name="lin16-microG/android_system_core" revision="lin-16.0-microG" />
+  <project path="system/core" name="lin16-microG/android_system_core" groups="pdk" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_system_media" />
-  <project path="system/media" name="lin16-microG/android_system_media" revision="lin-16.0-microG" />
+  <project path="system/media" name="lin16-microG/android_system_media" groups="pdk" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_system_netd" />
-  <project path="system/netd" name="lin16-microG/android_system_netd" />
+  <project path="system/netd" name="lin16-microG/android_system_netd" groups="pdk" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="lin16-microG/android_system_sepolicy" revision="lin-16.0-microG" />
+  <project path="system/sepolicy" name="lin16-microG/android_system_sepolicy" groups="pdk" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_system_vold" />
-  <project path="system/vold" name="lin16-microG/android_system_vold" />
+  <project path="system/vold" name="lin16-microG/android_system_vold" groups="pdk" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="lin16-microG/android_vendor_lineage" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
