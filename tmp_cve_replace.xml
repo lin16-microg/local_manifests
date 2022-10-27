@@ -18,19 +18,19 @@
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/expat" />
 
-    <project path="libcore" name="lin16-microG/android_libcore" />
-    <project path="external/aac" name="lin16-microG/android_external_aac" />
-    <project path="external/dtc" name="lin16-microG/android_external_dtc" />
-    <project path="external/icu" name="lin16-microG/android_external_icu" />
-    <project path="external/expat" name="lin16-microG/android_external_expat" />
-    <project path="packages/apps/Bluetooth" name="lin16-microG/android_packages_apps_Bluetooth" />
-    <project path="packages/apps/Contacts" name="lin16-microG/android_packages_apps_Contacts" />
-    <project path="packages/apps/EmergencyInfo" name="lin16-microG/android_packages_apps_EmergencyInfo" />
-    <project path="packages/apps/KeyChain" name="lin16-microG/android_packages_apps_KeyChain" />
-    <project path="packages/apps/Nfc" name="lin16-microG/android_packages_apps_Nfc" />
-    <project path="packages/providers/ContactsProvider" name="lin16-microG/android_packages_providers_ContactsProvider" />
-    <project path="system/nfc" name="lin16-microG/android_system_nfc" />
-    <project path="system/timezone" name="lin16-microG/android_system_timezone" />
+    <project path="libcore" name="lin16-microG/android_libcore" groups="pdk" />
+    <project path="external/aac" name="lin16-microG/android_external_aac" groups="pdk" />
+    <project path="external/dtc" name="lin16-microG/android_external_dtc" groups="pdk" />
+    <project path="external/icu" name="lin16-microG/android_external_icu" groups="pdk" />
+    <project path="external/expat" name="lin16-microG/android_external_expat" groups="pdk" />
+    <project path="packages/apps/Bluetooth" name="lin16-microG/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+    <project path="packages/apps/Contacts" name="lin16-microG/android_packages_apps_Contacts" groups="pdk-fs" />
+    <project path="packages/apps/EmergencyInfo" name="lin16-microG/android_packages_apps_EmergencyInfo" groups="pdk-fs" />
+    <project path="packages/apps/KeyChain" name="lin16-microG/android_packages_apps_KeyChain" groups="pdk-fs" />
+    <project path="packages/apps/Nfc" name="lin16-microG/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
+    <project path="packages/providers/ContactsProvider" name="lin16-microG/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
+    <project path="system/nfc" name="lin16-microG/android_system_nfc" groups="pdk" />
+    <project path="system/timezone" name="lin16-microG/android_system_timezone" groups="pdk" />
     <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="lin16-microG/android_vendor_nxp_opensource_external_libnfc-nci" />
     <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="lin16-microG/android_vendor_nxp_opensource_packages_apps_Nfc" />
 </manifest>
