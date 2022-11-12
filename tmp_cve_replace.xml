@@ -4,12 +4,15 @@
     <remove-project name="LineageOS/android_external_aac" />
     <remove-project name="LineageOS/android_external_icu" />
     <remove-project name="LineageOS/android_libcore" />
+    <remove-project name="LineageOS/android_hardware_nxp_nfc" />
     <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
     <remove-project name="LineageOS/android_packages_apps_Contacts" />
     <remove-project name="LineageOS/android_packages_apps_EmergencyInfo" />
     <remove-project name="LineageOS/android_packages_apps_KeyChain" />
     <remove-project name="LineageOS/android_packages_apps_Nfc" />
+    <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
     <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
+    <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
     <remove-project name="LineageOS/android_system_nfc" />
     <remove-project name="LineageOS/android_system_timezone" />
     <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
@@ -23,12 +26,15 @@
     <project path="external/dtc" name="lin16-microG/android_external_dtc" groups="pdk" />
     <project path="external/icu" name="lin16-microG/android_external_icu" groups="pdk" />
     <project path="external/expat" name="lin16-microG/android_external_expat" groups="pdk" />
+    <project path="hardware/nxp/nfc" name="lin16-microG/android_hardware_nxp_nfc" groups="pdk" />
     <project path="packages/apps/Bluetooth" name="lin16-microG/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
     <project path="packages/apps/Contacts" name="lin16-microG/android_packages_apps_Contacts" groups="pdk-fs" />
     <project path="packages/apps/EmergencyInfo" name="lin16-microG/android_packages_apps_EmergencyInfo" groups="pdk-fs" />
     <project path="packages/apps/KeyChain" name="lin16-microG/android_packages_apps_KeyChain" groups="pdk-fs" />
     <project path="packages/apps/Nfc" name="lin16-microG/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
+    <project path="packages/apps/PackageInstaller" name="lin16-microG/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
     <project path="packages/providers/ContactsProvider" name="lin16-microG/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
+    <project path="packages/providers/TelephonyProvider" name="lin16-microG/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
     <project path="system/nfc" name="lin16-microG/android_system_nfc" groups="pdk" />
     <project path="system/timezone" name="lin16-microG/android_system_timezone" groups="pdk" />
     <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="lin16-microG/android_vendor_nxp_opensource_external_libnfc-nci" />
