@@ -16,6 +16,7 @@
     <remove-project name="LineageOS/android_system_nfc" />
     <remove-project name="LineageOS/android_system_timezone" />
     <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+    <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
     <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
 
     <remove-project name="platform/external/dtc" />
@@ -38,5 +39,6 @@
     <project path="system/nfc" name="lin16-microG/android_system_nfc" groups="pdk" />
     <project path="system/timezone" name="lin16-microG/android_system_timezone" groups="pdk" />
     <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="lin16-microG/android_vendor_nxp_opensource_external_libnfc-nci" />
+    <project path="vendor/nxp/opensource/halimpl" name="lin16-microG/android_vendor_nxp_opensource_halimpl" />
     <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="lin16-microG/android_vendor_nxp_opensource_packages_apps_Nfc" />
 </manifest>
