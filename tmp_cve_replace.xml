@@ -3,6 +3,7 @@
     <!-- Replace Lineage repos with own forks, due to not merged CVE from LOS gerrit -->
     <remove-project name="LineageOS/android_external_aac" />
     <remove-project name="LineageOS/android_external_icu" />
+    <remove-project name="LineageOS/android_frameworks_minikin" />
     <remove-project name="LineageOS/android_libcore" />
     <remove-project name="LineageOS/android_hardware_nxp_nfc" />
     <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
@@ -27,6 +28,7 @@
     <project path="external/dtc" name="lin16-microG/android_external_dtc" groups="pdk" />
     <project path="external/icu" name="lin16-microG/android_external_icu" groups="pdk" />
     <project path="external/expat" name="lin16-microG/android_external_expat" groups="pdk" />
+    <project path="frameworks/minikin" name="lin16-microg/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
     <project path="hardware/nxp/nfc" name="lin16-microG/android_hardware_nxp_nfc" groups="pdk" />
     <project path="packages/apps/Bluetooth" name="lin16-microG/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
     <project path="packages/apps/Contacts" name="lin16-microG/android_packages_apps_Contacts" groups="pdk-fs" />
