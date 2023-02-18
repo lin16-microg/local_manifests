@@ -61,7 +61,7 @@
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/LineageParts" name="lin16-microG/android_packages_apps_LineageParts" revision="lin-16.0-treble" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" groups="pdk-fs"revision="lin-16.0-treble" />
+  <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" groups="pdk-fs" revision="lin-16.0-treble" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Trebuchet" name="lin16-microG/android_packages_apps_Trebuchet" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
