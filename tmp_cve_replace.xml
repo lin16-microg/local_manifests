@@ -26,6 +26,7 @@
 
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/expat" />
+    <remove-project name="platform/tools/apksig" />
 
     <project path="libcore" name="lin16-microG/android_libcore" groups="pdk" />
     <project path="external/aac" name="lin16-microG/android_external_aac" groups="pdk" />
@@ -48,6 +49,7 @@
     <project path="packages/providers/TelephonyProvider" name="lin16-microG/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
     <project path="system/nfc" name="lin16-microG/android_system_nfc" groups="pdk" />
     <project path="system/timezone" name="lin16-microG/android_system_timezone" groups="pdk" />
+    <project path="tools/apksig" name="lin16-microG/android_tools_apksig" groups="pdk,tradefed" />
     <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="lin16-microG/android_vendor_nxp_opensource_external_libnfc-nci" />
     <project path="vendor/nxp/opensource/halimpl" name="lin16-microG/android_vendor_nxp_opensource_halimpl" />
     <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="lin16-microG/android_vendor_nxp_opensource_packages_apps_Nfc" />
