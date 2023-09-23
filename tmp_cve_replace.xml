@@ -26,8 +26,11 @@
 
     <remove-project name="platform/external/dtc" />
     <remove-project name="platform/external/expat" />
+    <remove-project name="platform/external/webp" />
     <remove-project name="platform/system/ca-certificates" />
     <remove-project name="platform/tools/apksig" />
+
+    <project path="external/webp" name="LineageOS/android_external_webp" groups="pdk,qcom_msm8x26" revision="lineage-18.1" />
 
     <project path="libcore" name="lin16-microG/android_libcore" groups="pdk" />
     <project path="external/aac" name="lin16-microG/android_external_aac" groups="pdk" />
