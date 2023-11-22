@@ -4,6 +4,7 @@
     <remove-project name="LineageOS/android_external_aac" />
     <remove-project name="LineageOS/android_external_freetype" />
     <remove-project name="LineageOS/android_external_icu" />
+    <remove-project name="LineageOS/android_external_libcups" />
     <remove-project name="LineageOS/android_external_zlib" />
     <remove-project name="LineageOS/android_frameworks_minikin" />
     <remove-project name="LineageOS/android_libcore" />
@@ -18,6 +19,7 @@
     <remove-project name="LineageOS/android_packages_apps_Traceur" />
     <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
     <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
+    <remove-project name="LineageOS/android_packages_services_BuiltInPrintService" />
     <remove-project name="LineageOS/android_system_nfc" />
     <remove-project name="LineageOS/android_system_timezone" />
     <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
@@ -40,6 +42,7 @@
     <project path="external/expat" name="lin16-microG/android_external_expat" groups="pdk" />
     <project path="external/freetype" name="lin16-microG/android_external_freetype" groups="pdk" />
     <project path="external/icu" name="lin16-microG/android_external_icu" groups="pdk" />
+    <project path="external/libcups" name="lin16-microG/android_external_libcups" groups="pdk-cw-fs,pdk-fs" />
     <project path="external/libvpx" name="lin16-microG/android_external_libvpx" groups="pdk" />
     <project path="external/libxml2" name="lin16-microG/android_external_libxml2" groups="pdk,libxml2" />
     <project path="external/zlib" name="lin16-microG/android_external_zlib" groups="pdk" />
@@ -55,6 +58,7 @@
     <project path="packages/apps/Traceur" name="lin16-microG/android_packages_apps_Traceur" groups="pdk-fs" />
     <project path="packages/providers/ContactsProvider" name="lin16-microG/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" />
     <project path="packages/providers/TelephonyProvider" name="lin16-microG/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+    <project path="packages/services/BuiltInPrintService" name="lin16-microG/android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" />
     <project path="system/nfc" name="lin16-microG/android_system_nfc" groups="pdk" />
     <project path="system/ca-certificates" name="lin16-microG/android_system_ca-certificates" groups="pdk" />
     <project path="system/timezone" name="lin16-microG/android_system_timezone" groups="pdk" />
