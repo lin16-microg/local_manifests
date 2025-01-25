@@ -43,6 +43,8 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <remove-project name="LineageOS/android_external_freetype" />
+  <project path="external/freetype" name="lin16-microG/android_external_freetype" groups="pdk" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_external_selinux" />
   <project path="external/selinux" name="lin16-microG/android_external_selinux" groups="pdk" />
   <remove-project name="LineageOS/android_frameworks_av" />
