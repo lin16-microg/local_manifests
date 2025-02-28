@@ -21,10 +21,6 @@
            name="MSe1969/privacy-friendly-netmonitor-prebuilt"
            clone-depth="1" revision="master" />
 
-  <!-- Mulch webview: Replaces LineageOS webview -->
-  <remove-project name="LineageOS/android_external_chromium-webview" />
-  <project name="divested-mobile/mulch" path="external/Mulch" remote="Gitlab" revision="master" />
-
   <!-- AuroraStore prebuilt-->
   <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="master" />
 
