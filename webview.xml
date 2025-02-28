@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="codeberg" fetch="https://codeberg.org" />
+
+  <remove-project name="LineageOS/android_external_chromium-webview" />
+
+  <!-- Old Mulch version for HUAWEI P9 EVA -->
+  <project path="external/Mulch" name="MSe1969/Mulch_EVA" revision="FEB" remote="codeberg" />
+
+  <!-- AOSmium Webview -->
+  <project path="external/AOSmium-prebuilt" name="MSe1969/AOSmium-prebuilt" revision="main" remote="codeberg" />
+
+</manifest>
