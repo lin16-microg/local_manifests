@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="Gitlab" fetch="https://gitlab.com" />
-
   <!-- Static OTA updater resource -->
   <project path="OTA" name="lin16-microG/OTA" revision="changelog" />
 
