@@ -2,18 +2,20 @@
 <manifest>
 
   <!-- Static OTA updater resource -->
-  <project path="OTA" name="lin16-microG/OTA" revision="changelog" />
+  <project path="OTA" name="lin16-microG/OTA" revision="lin-16.0-microG" remote="codeberg" />
 
   <!-- Forked Jelly Browser -->
   <remove-project name="LineageOS/android_packages_apps_Jelly" />
-  <project path="packages/apps/Jelly" name="lin16-microG/android_packages_apps_Jelly" revision="lin-16.0-microG" />
+  <project path="packages/apps/Jelly" name="lin16-microG/android_packages_apps_Jelly"
+           revision="lin-16.0-microG" remote="codeberg" />
 
   <!-- microG Build, prebuilt apks -->
   <project path="prebuilts/prebuiltapks" name="MSe1969/android_prebuilts_prebuiltapks"
            revision="master" remote="codeberg" />
 
   <!-- Prebuilt Huawei Camera app -->
-  <project path="prebuilts/HwCamera2" name="lin16-microG/android_prebuilts_HwCamera2" revision="master" />
+  <project path="prebuilts/HwCamera2" name="lin16-microG/android_prebuilts_HwCamera2"
+           revision="master" remote="codeberg" />
 
   <!-- Privacy friendly netmonitor -->
   <project path="external/secuso/privacy-friendly-netmonitor"
@@ -24,12 +26,12 @@
   <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="master" remote="codeberg" />
 
   <!-- Patches & root-scripts Directory -->
-  <project path="z_patches" name="lin16-microG/z_patches" revision="lin-16.0-microG" />
-  <project path="z_patches/root-scripts" name="lin16-microG/root-scripts" />
+  <project path="z_patches" name="lin16-microG/z_patches" revision="lin-16.0-treble" remote="codeberg" />
+  <project path="z_patches/root-scripts" name="lin16-microG/root-scripts" remote="codeberg" />
 
   <!-- Replaced/enhanced Repositories -->
   <remove-project name="LineageOS/android_build" />
-  <project path="build/make" name="lin16-microG/android_build" groups="pdk" revision="lin-16.0-treble" >
+  <project path="build/make" name="lin16-microG/android_build" groups="pdk" revision="lin-16.0-treble" remote="codeberg">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -39,56 +41,69 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <remove-project name="LineageOS/android_external_freetype" />
-  <project path="external/freetype" name="lin16-microG/android_external_freetype" groups="pdk" revision="lin-16.0-microG" />
+  <project path="external/freetype" name="lin16-microG/android_external_freetype" groups="pdk" revision="lin-16.0-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_external_selinux" />
-  <project path="external/selinux" name="lin16-microG/android_external_selinux" groups="pdk" revision="lin-16.0-treble" />
+  <project path="external/selinux" name="lin16-microG/android_external_selinux" groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_av" />
-  <project path="frameworks/av" name="lin16-microG/android_frameworks_av" groups="pdk" revision="lin-16.0-treble" />
+  <project path="frameworks/av" name="lin16-microG/android_frameworks_av" groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="lin16-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lin-16.0-treble" />
+  <project path="frameworks/base" name="lin16-microG/android_frameworks_base"
+           groups="pdk-cw-fs,pdk-fs" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_native" />
-  <project path="frameworks/native" name="lin16-microG/android_frameworks_native" groups="pdk" revision="lin-16.0-treble" />
+  <project path="frameworks/native" name="lin16-microG/android_frameworks_native" groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
-  <project path="frameworks/opt/net/wifi" name="lin16-microG/android_frameworks_opt_net_wifi" groups="pdk" revision="lin-16.0-treble" />
+  <project path="frameworks/opt/net/wifi" name="lin16-microG/android_frameworks_opt_net_wifi"
+           groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_frameworks_opt_telephony" />
-  <project path="frameworks/opt/telephony" name="lin16-microG/android_frameworks_opt_telephony" groups="pdk" revision="lin-16.0-treble" />
+  <project path="frameworks/opt/telephony" name="lin16-microG/android_frameworks_opt_telephony"
+           groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_lineage-sdk" />
-  <project path="lineage-sdk" name="lin16-microG/android_lineage-sdk" />
+  <project path="lineage-sdk" name="lin16-microG/android_lineage-sdk" remote="codeberg" revision="lin-16.0-treble" />
+  <remove-project name="LineageOS/android_packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="lin16-microG/android_packages_apps_Contacts" groups="pdk-fs" remote="codeberg" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_apps_Dialer" />
-  <project path="packages/apps/Dialer" name="lin16-microG/android_packages_apps_Dialer" groups="pdk-fs" revision="lin-16.0-microG" />
+  <project path="packages/apps/Dialer" name="lin16-microG/android_packages_apps_Dialer" groups="pdk-fs" revision="lin-16.0-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Eleven" />
-  <project path="packages/apps/Eleven" name="lin16-microG/android_packages_apps_Eleven" />
+  <project path="packages/apps/Eleven" name="lin16-microG/android_packages_apps_Eleven" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
-  <project path="packages/apps/LineageParts" name="lin16-microG/android_packages_apps_LineageParts" revision="lin-16.0-treble" />
+  <project path="packages/apps/LineageParts" name="lin16-microG/android_packages_apps_LineageParts" revision="lin-16.0-treble" remote="codeberg" />
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <project path="packages/apps/Nfc" name="lin16-microG/android_packages_apps_Nfc"
+           groups="apps_nfc,pdk-fs" remote="codeberg" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" groups="pdk-fs" revision="lin-16.0-treble" />
+  <project path="packages/apps/Settings" name="lin16-microG/android_packages_apps_Settings" groups="pdk-fs" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/Trebuchet" name="lin16-microG/android_packages_apps_Trebuchet" revision="lin-16.0-microG" />
+  <project path="packages/apps/Trebuchet" name="lin16-microG/android_packages_apps_Trebuchet" revision="lin-16.0-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_services_Telecomm" />
-  <project path="packages/services/Telecomm" name="lin16-microG/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" revision="lin-16.0-microG" />
+  <project path="packages/services/Telecomm" name="lin16-microG/android_packages_services_Telecomm"
+           groups="pdk-cw-fs,pdk-fs" revision="lin-16.0-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_packages_services_Telephony" />
-  <project path="packages/services/Telephony" name="lin16-microG/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" revision="lin-16.0-treble" />
+  <project path="packages/services/Telephony" name="lin16-microG/android_packages_services_Telephony"
+           groups="pdk-cw-fs,pdk-fs" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_system_bt" />
-  <project path="system/bt" name="lin16-microG/android_system_bt" groups="pdk" revision="lin-16.0-treble" />
+  <project path="system/bt" name="lin16-microG/android_system_bt" groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
+  <remove-project name="platform/system/ca-certificates" />
+  <project path="system/ca-certificates" name="lin16-microG/android_system_ca-certificates" groups="pdk" remote="codeberg" revision="lin-16.0-microG" />
   <remove-project name="LineageOS/android_system_core" />
-  <project path="system/core" name="lin16-microG/android_system_core" groups="pdk" revision="lin-16.0-treble" />
+  <project path="system/core" name="lin16-microG/android_system_core" groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_system_media" />
-  <project path="system/media" name="lin16-microG/android_system_media" groups="pdk" revision="lin-16.0-microG" />
+  <project path="system/media" name="lin16-microG/android_system_media" groups="pdk" revision="lin-16.0-microG" remote="codeberg" />
   <remove-project name="LineageOS/android_system_netd" />
-  <project path="system/netd" name="lin16-microG/android_system_netd" groups="pdk" revision="lin-16.0-treble" />
+  <project path="system/netd" name="lin16-microG/android_system_netd" groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="lin16-microG/android_system_sepolicy" groups="pdk" revision="lin-16.0-treble" />
+  <project path="system/sepolicy" name="lin16-microG/android_system_sepolicy" groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_system_vold" />
-  <project path="system/vold" name="lin16-microG/android_system_vold" groups="pdk" revision="lin-16.0-treble" />
+  <project path="system/vold" name="lin16-microG/android_system_vold" groups="pdk" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="lin16-microG/android_vendor_lineage" revision="lin-16.0-treble" />
+  <project path="vendor/lineage" name="lin16-microG/android_vendor_lineage" revision="lin-16.0-treble" remote="codeberg" />
   <remove-project name="LineageOS/android_vendor_qcom_opensource_cryptfs_hw" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="lin16-microG/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" revision="lin-16.0-treble" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="lin16-microG/android_vendor_qcom_opensource_cryptfs_hw"
+           groups="qcom,pdk-qcom" revision="lin-16.0-treble" remote="codeberg" />
 
   <!-- Additional Repositories needed for Treble -->
-  <project name="lin16-microG/device_phh_treble" path="device/phh/treble" remote="github" revision="lin-16.0-eva-p9" />
+  <project name="lin16-microG/device_phh_treble" path="device/phh/treble" remote="codeberg" revision="lin-16.0-eva-p9" />
   <project name="phhusson/vendor_vndk" path="vendor/vndk" remote="github" revision="master" />
-  <project name="lin16-microG/vendor_hardware_overlay" path="vendor/hardware_overlay" remote="github" revision="hi3650" />
-  <project name="lin16-microG/vendor_interfaces" path="vendor/interfaces" remote="github" revision="pie" />
+  <project name="lin16-microG/vendor_hardware_overlay" path="vendor/hardware_overlay" remote="codeberg" revision="hi3650" />
+  <project name="lin16-microG/vendor_interfaces" path="vendor/interfaces" remote="codeberg" revision="pie" />
 
 </manifest>
