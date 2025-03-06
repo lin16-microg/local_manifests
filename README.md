@@ -1,3 +1,5 @@
+**This organization has been migrated to Codeberg - please visit https://codeberg.org/lin16-microG**
+
 # How to build
 General assumption is, that you are familiar with building ROMs and how to use git etc.
 The [LineageOS build instructions (example: gts210vewifi device)](https://wiki.lineageos.org/devices/gts210vewifi/build) should provide you with needed additional informations. 
