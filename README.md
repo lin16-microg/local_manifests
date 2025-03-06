@@ -17,7 +17,7 @@ Create the directory, which should contain your build tree and 'cd' into it and 
 ```Shell session
 repo init -u https://github.com/LineageOS/android.git -b lineage-16.0 --groups=all,-notdefault,-darwin,-mips
 cd .repo
-git clone https://github.com/lin16-microG/local_manifests 
+git clone https://codeberg.org/lin16-microG/local_manifests 
 cd local_manifests 
 git checkout lineage-16.0
 cd ../.. 
